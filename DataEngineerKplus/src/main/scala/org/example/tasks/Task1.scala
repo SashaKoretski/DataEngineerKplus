@@ -1,3 +1,5 @@
+// Решение первого задания
+
 package org.example.tasks
 
 import org.example.model.EventRecord

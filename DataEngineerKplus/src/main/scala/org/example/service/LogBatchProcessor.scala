@@ -1,3 +1,5 @@
+// Парсер всех файлов с помощью LogParser
+
 package org.example.service
 
 import org.example.model.EventRecord

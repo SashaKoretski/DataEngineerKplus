@@ -1,3 +1,5 @@
+// Поиск по всей таблице с помощью фильтрации по полям
+
 package org.example.tasks
 
 import org.example.model.EventRecord

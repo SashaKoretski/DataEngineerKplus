@@ -1,3 +1,5 @@
+// Модель данных, используемая для хранения таблицы
+
 package org.example.model
 
 import java.time.LocalDate

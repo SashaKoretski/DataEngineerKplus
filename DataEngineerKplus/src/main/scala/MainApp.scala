@@ -1,3 +1,5 @@
+// Главное приложение, запускающее весь проект
+
 package org.example
 
 import org.example.model.EventRecord

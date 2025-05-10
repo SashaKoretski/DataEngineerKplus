@@ -1,3 +1,5 @@
+// Вывод меню и работа с ним
+
 package org.example
 
 import org.example.model.EventRecord

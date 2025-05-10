@@ -1,3 +1,5 @@
+// Парсер файлов, содержащих описанные в задание данные
+
 package org.example.parser
 
 import org.example.model.EventRecord
