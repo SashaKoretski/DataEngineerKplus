@@ -15,9 +15,12 @@ object LogBatchProcessor {
   def processAllLogs(baseProjectDir: Path): List[EventRecord] = {
     val sessionDir = baseProjectDir.resolveSibling("Sessions").toAbsolutePath.normalize()
 
+    println(s"КРАЙНЕ РЕКОМЕНДЕТСЯ ПЕРЕД НАЧАЛОМ РАБОТЫ В ПРИЛОЖЕНИИ\n " +
+      s"ОЗНАКОМИТЬСЯ С ОПИСАНИЕМ ПРОЕКТА https://github.com/SashaKoretski/DataEngineerKplus\n")
+
     if (!Files.exists(sessionDir) || !Files.isDirectory(sessionDir)) {
       println(s"Папка не найдена: $sessionDir")
-      return List.empty
+      sys.exit(1)
     }
 
     val sessionFiles = Files.list(sessionDir).iterator().asScala.toList
