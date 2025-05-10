@@ -47,7 +47,7 @@ object FlexibleQuery {
       case other => Some(other)
     }
 
-    println("5. Точное значение count:")
+    println("5. Количество действий с документом:")
     val countFilter = StdIn.readLine().trim match {
       case "" => None
       case str =>
